@@ -47,6 +47,13 @@ button{
   margin-top: 20px;
 }
 
+button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 500ms ease;
+  
+}
+
 h1 {
   font-size: 24px;
   margin: 10px;
@@ -111,10 +118,10 @@ img {
     justify-content: space-between;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 300px) {
   body {
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: "aside header" "aside header" "one one" "two three" "four five" "four five" "six six" "seven seven";
+    grid-template-areas: "header header" "aside aside" "aside aside" "two three" "four five" "four five" "six six" "seven seven";
   }
   aside {
     grid-area: aside;
