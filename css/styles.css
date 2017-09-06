@@ -16,8 +16,9 @@ header {
 }
 aside {
   grid-area: aside;
-  background: url(../assets/1996_atlanta-gold-border.png) center no-repeat;
+  background: url(../assets/1996_Summer_Olympics_logo.svg) center no-repeat #B37E2C;
   background-size: cover;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
