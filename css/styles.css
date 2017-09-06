@@ -42,8 +42,7 @@ button{
   border: solid 1px #000;
   height: 50px;
   width: 100px;
-  margin-left: 10px;
-  margin-top: 20px;
+  margin: 20px 0 10px 10px;
 }
 
 button:hover {
@@ -107,7 +106,7 @@ img {
 @media (max-width: 700px) {
   body {
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: "aside header" "aside header" "one one" "two three" "four five" "four five" "six six" "seven seven";
+    grid-template-areas: "aside header" "aside header" "one two" "one two" "three four" "three four" "five six" "five six" "seven seven";
   }
   aside {
     grid-area: aside;
