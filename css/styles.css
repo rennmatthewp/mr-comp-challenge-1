@@ -7,7 +7,7 @@ body {
   height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 2fr;
-  grid-template-rows: auto;
+  grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas: "header header one aside" "two three four aside" "five six seven aside"
 }
 header {
@@ -39,8 +39,7 @@ button{
   font-size: 0.8em;
   font-family: 'Arapey', serif;
   background: transparent;
-  border: solid #000;
-  font-size:
+  border: solid 1px #000;
   height: 50px;
   width: 100px;
   margin-left: 10px;
@@ -51,12 +50,13 @@ button:hover {
   cursor: pointer;
   transform: scale(1.1);
   transition: all 500ms ease;
-  
+
 }
 
 h1 {
   font-size: 24px;
-  margin: 10px;
+  font-weight: 700;
+  margin: 40px 0 10px 10px;
 }
 
 p {
@@ -126,7 +126,7 @@ img {
   aside {
     grid-area: aside;
     background: url(../assets/izzy.gif) center no-repeat;
-    background-size: cover;
+    background-size: contain;
     display: flex;
     align-items: center;
     justify-content: space-between;
